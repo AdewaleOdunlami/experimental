@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using System.Collections;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Diagnostics;
 
 namespace InsertionSort
@@ -20,24 +17,15 @@ namespace InsertionSort
 
     public class Sorting
     {
-        //List<int> elementsToSort = new List<int>();
         int[] elementsToSort = {10, 4, 17, 2, 5};
         int currentElement;
         int count = 1;
-        //int reset;
         int maxCount;
         int temporarySpace;
         int previousKey;
 
         public void SortElements()
         {
-            //elementsToSort.Add(10);
-            //elementsToSort.Add(4);
-            //elementsToSort.Add(7);
-            //elementsToSort.Add(2);
-            //elementsToSort.Add(5);
-
-            //reset = count;
             maxCount = elementsToSort.Length;
             while(count < maxCount)
             {
