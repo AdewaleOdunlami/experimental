@@ -9,20 +9,20 @@ namespace InsertionSort
     {
         static void Main(string[] args)
         {
-            Sorting s = new Sorting();
+            Sorting sort = new Sorting();
             
-            s.SortElements();
+            sort.SortElements();
         }
     }
 
     public class Sorting
     {
         int[] elementsToSort = {10, 4, 17, 2, 5};
-        int currentElement;
+        int currentElement = 0;
         int count = 1;
-        int maxCount;
-        int temporarySpace;
-        int previousKey;
+        int maxCount = 0;
+        int temporarySpace = 0;
+        int previousKey = 0;
 
         public void SortElements()
         {
